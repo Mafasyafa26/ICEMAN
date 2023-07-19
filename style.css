@@ -97,6 +97,32 @@ header ul li a{
     color: #333;
 }
 
+.scii a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 0px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #081b29;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.scii a:hover{
+    background: #017143;
+    color: #ffffff;
+    box-shadow: 0 0 20px #fff;
+}
+
+.scii i{
+    font-size: 40px;
+}
+
+
 .btn-box{
     display: inline-block;
     padding: 12px 28px;
@@ -126,31 +152,6 @@ header ul li a{
 
 .content .imgBox img{
     max-width: 340px;
-}
-
-.scii a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: 0px solid #fff;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #081b29;
-    text-decoration: none;
-    margin: 30px 15px 30px 0;
-}
-
-.scii a:hover{
-    background: #017143;
-    color: #ffffff;
-    box-shadow: 0 0 20px #fff;
-}
-
-.scii i{
-    font-size: 40px;
 }
 
 .thumb{
