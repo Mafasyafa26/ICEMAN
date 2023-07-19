@@ -110,7 +110,7 @@ header ul li a{
 }
 
 .btn-box:hover{
-    box-shadow: 0 0 5px white,
+    box-shadow: 0 0 10px #017143,
     0 0 25px white, 0 0 50px white,
     0 0 100px white, 0 0 200px white
 
