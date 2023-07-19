@@ -2,10 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>ICEMAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 <body>
+    <section>
+        <header>
+            <a href="https://www.instagram.com/iceman.probolinggo/"><img src="./images/logo.png" height="35" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Find Us</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h1>It's <span class="text"></span> <br>Quench Your Thirst!</h1>
+                <p>Bring freshness and cheerfulness to every moment with our mocktail beverages. 
+                Created with a combination of fresh fruits, delicious syrups, and our secret touch, every sip brings tempting flavors and a fulfilling sense of joy.</p>
+                <div class="scii">
+                    <a href="https://wa.me/6289509736882/"><i class='bx bxl-whatsapp' ></i></a>
+                    <a href="https://www.instagram.com/iceman.probolinggo/"><i class='bx bxl-instagram' ></i></a>
+                </div>
+                <a href="#" class="btn-box">Learn More</a>
+            </div>
+                <div class="imgBox">
+                    <img src="./images/ICEMAN.png" class="maldives">
+                </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./images/maldives1.png"></li>
+            <li><img src="./images/red velvet1.png"></li>
+            <li><img src="./images/strawberry mojito1.png"></li>
+            <li><img src="./images/strawberry1.png"></li>
+            <li><img src="./images/taro1.png"></li>
+            <li><img src="./images/vanila latte1.png"></li>
+        </ul>
+    </section>
+
+    <script>
+        const typed = new Typed('.text', {
+            strings: ["ICEMAN"],
+            typeSpeed: 100,
+            loop: true
+        });
+    </script>
     
 </body>
 </html>
